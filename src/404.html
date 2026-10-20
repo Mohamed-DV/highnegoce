@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page introuvable | High Negoce</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+@font-face { font-family: "Archivo"; font-display: swap; font-weight: 100 900; font-stretch: 62% 125%;
+  src: url("/fonts/archivo-latin-wdth-normal.woff2") format("woff2"); }
+:root { --ink: #262626; --ink-soft: #464c50; --ground: #eef1f2; --cyan: #1694b2; --cyan-deep: #0a6a83; --cyan-press: #08566b; }
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px 16px;
+  background: var(--ground); color: var(--ink); font-family: "Archivo", system-ui, sans-serif; line-height: 1.55; }
+main { max-width: 560px; }
+img { width: 64px; height: auto; display: block; }
+h1 { margin: 28px 0 0; font-size: clamp(1.9rem, 6vw, 2.6rem); line-height: 1.08; font-weight: 640; font-stretch: 112%; }
+p { margin: 16px 0 0; color: var(--ink-soft); }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+a.btn { display: inline-flex; align-items: center; min-height: 48px; padding: 12px 22px; border-radius: 6px;
+  font-weight: 600; text-decoration: none; border: 1.5px solid var(--ink); color: var(--ink); }
+a.btn.primary { background: var(--cyan-deep); border-color: var(--cyan-deep); color: #fff; }
+a.btn.primary:hover { background: var(--cyan-press); }
+a.btn:focus-visible { outline: 3px solid var(--cyan); outline-offset: 3px; }
+</style>
+</head>
+<body>
+<main>
+  <img src="/assets/hn-mark.png" alt="High Negoce" width="223" height="236">
+  <h1>Cette page n'existe pas</h1>
+  <p>Le lien est peut-être ancien ou mal saisi. Retrouvez nos rouleaux thermiques, étiquettes et papier listing sur la page d'accueil, ou écrivez-nous directement.</p>
+  <div class="actions">
+    <a class="btn primary" href="/">Aller à l'accueil</a>
+    <a class="btn" href="https://wa.me/212662085558" target="_blank" rel="noopener">Écrire sur WhatsApp</a>
+  </div>
+</main>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="76 51 230 230">
+  <style>.h{fill:url(#h)}@media (prefers-color-scheme:dark){.h{fill:#e9ecee}}</style>
+  <defs>
+    <linearGradient id="h" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a4a4a"/><stop offset="1" stop-color="#1c1c1c"/></linearGradient>
+    <linearGradient id="n" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#25afd2"/><stop offset="1" stop-color="#0a7894"/></linearGradient>
+  </defs>
+  <path class="h" d="M92 181 113 151V187H167V88L189 59V272H167V201H113V272H92Z"/>
+  <path fill="url(#n)" d="M191 272V60L212 88 269 186V124L290 150V272L212 140V272Z"/>
+</svg>
